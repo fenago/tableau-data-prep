@@ -66,16 +66,16 @@ Sales.xlsx** file:
 1.  Drag the **Sales_Data** sheet onto the flow canvas:
 
     
-    ![](./images/B16782_03_001.jpg)
+![](./images/B16782_03_001.jpg)
 
 
 
-    When you select the **Sales_Data** input step,
+When you select the **Sales_Data** input step,
     the bottom pane will show a preview of all the fields in the source
     data, along with their data type and some sample values:
 
     
-    ![](./images/B16782_03_002.jpg)
+![](./images/B16782_03_002.jpg)
 
 
 
@@ -87,11 +87,11 @@ Sales.xlsx** file:
     to match the following screenshot:
 
     
-    ![](./images/B16782_03_003.jpg)
+![](./images/B16782_03_003.jpg)
 
 
 
-    It\'s easy to remember the changes we\'ve made
+It\'s easy to remember the changes we\'ve made
     just now, but as your flow grows in complexity, it can become
     challenging to recall all the changes we\'ve made. Tableau Prep
     supports us here by showing an edit icon next to the step in the
@@ -100,11 +100,10 @@ Sales.xlsx** file:
     see a summary of the edits we made:
 
     
-    ![Figure 3.4 -- Hover over any edit icon to see a summary of the
-    changes made ](./images/B16782_03_004.jpg)
+![](./images/B16782_03_004.jpg)
 
 
-    Of course, you may wish to get more detailed
+Of course, you may wish to get more detailed
     insights into the exact change. There\'s a great overview of that as
     well! We can click the step with the changes and, from the bottom
     pane, select the **Changes** tab. This tab provides detailed insight
@@ -112,7 +111,7 @@ Sales.xlsx** file:
     as needed from here:
 
     
-    ![](./images/B16782_03_005.jpg)
+![](./images/B16782_03_005.jpg)
 
 
 3.  You may have noticed a typo in *Figure 3.4*.
@@ -122,7 +121,7 @@ Sales.xlsx** file:
     **+** icon on the input tool and select **Clean Step**:
 
     
-    ![](./images/B16782_03_006.jpg)
+![](./images/B16782_03_006.jpg)
 
 
 
@@ -185,7 +184,7 @@ Sales.hyper** extract file, then follow the steps:
     click **Filter Values...** in the bottom pane:
 
     
-    ![](./images/B16782_03_007.jpg)
+![](./images/B16782_03_007.jpg)
 
 
 2.  The sample data contains information for three
@@ -221,7 +220,7 @@ to get started:
     visible already:
 
     
-    ![](./images/B16782_03_009.jpg)
+![](./images/B16782_03_009.jpg)
 
 
 3.  From the bottom pane, you can select any value
@@ -234,7 +233,7 @@ to get started:
     that have the selected values:
 
     
-    ![](./images/B16782_03_010.jpg)
+![](./images/B16782_03_010.jpg)
 
 
 
@@ -248,7 +247,7 @@ to get started:
     been applied from the **Changes** section:
 
     
-    ![](./images/B16782_03_011.jpg)
+![](./images/B16782_03_011.jpg)
 
 
 5.  Behind the scenes, Tableau Prep has created a calculation filter for
@@ -257,7 +256,7 @@ to get started:
     the calculation as needed:
 
     
-    ![](./images/B16782_03_012.jpg)
+![](./images/B16782_03_012.jpg)
 
 
 
@@ -268,7 +267,7 @@ to get started:
     Values**:
 
     
-    ![](./images/B16782_03_013.jpg)
+![](./images/B16782_03_013.jpg)
 
 
 
@@ -278,7 +277,7 @@ to get started:
     those values only and click **Done** to complete the filter setup:
 
     
-    ![](./images/B16782_03_014.jpg)
+![](./images/B16782_03_014.jpg)
 
 
 
@@ -291,7 +290,7 @@ to get started:
     dates:
 
     
-    ![](./images/B16782_03_015.jpg)
+![](./images/B16782_03_015.jpg)
 
 
 9.  Select **Range of Dates** and set the filter
@@ -377,7 +376,7 @@ file from the **Sample Files 3.3** folder and follow the steps:
     and set both fields to **Date**:
 
     
-    ![](./images/B16782_03_016.jpg)
+![](./images/B16782_03_016.jpg)
 
 
 
@@ -395,22 +394,22 @@ file from the **Sample Files 3.3** folder and follow the steps:
     **Return Date** field name and set it to **Date**:
 
     
-    ![](./images/B16782_03_018.jpg)
+![](./images/B16782_03_018.jpg)
 
     The change is successful this time and the pane shows proper date
     formats for the values now:
 
     
-    ![](./images/B16782_03_019.jpg)
+![](./images/B16782_03_019.jpg)
 
 
 
-    Tip
+Tip
 
-    Always use the data cleaning tool to change data types. Not only
-    does the result sometimes differ compared to using the input tool
-    but you also have the added benefit of seeing more rows in the data
-    grid, so you can instantly view the result of your changes.
+Always use the data cleaning tool to change data types. Not only
+does the result sometimes differ compared to using the input tool
+but you also have the added benefit of seeing more rows in the data
+grid, so you can instantly view the result of your changes.
 
 4.  The **Date** column in our dataset is a little more problematic and
     cannot be solved by the cleaning tool itself. The values in this
@@ -497,29 +496,29 @@ Open up Tableau Prep and connect to the **User List.csv** file from the
     Role** from the menu:
 
     
-    ![](./images/B16782_03_022.jpg)
+![](./images/B16782_03_022.jpg)
 
 
 
-    With the role selected, Tableau Prep will
+With the role selected, Tableau Prep will
     validate the data in our sample file and flag any mismatch to the
     role with an exclamation symbol:
 
     
-    ![](./images/B16782_03_023.jpg)
+![](./images/B16782_03_023.jpg)
 
 
 
-    We have several options to resolve these
+We have several options to resolve these
     issues, which you can reveal by right-clicking an item. Let\'s
     select **Replace with Null** for **gator**:
 
     
-    ![](./images/B16782_03_024.jpg)
+![](./images/B16782_03_024.jpg)
 
 
 
-    Once you edit a value, you\'ll notice a little
+Once you edit a value, you\'ll notice a little
     paperclip icon in the list of values and a change in the **Changes**
     section listed as **Group Values**. This is because Tableau has
     created a new group with the **null** value and added **gator** as a
@@ -531,7 +530,7 @@ Open up Tableau Prep and connect to the **User List.csv** file from the
     pane now lists a filter to exclude this value:
 
     
-    ![](./images/B16782_03_025.jpg)
+![](./images/B16782_03_025.jpg)
 
 
 
@@ -542,14 +541,13 @@ Open up Tableau Prep and connect to the **User List.csv** file from the
     leading space, resulting in a validation error:
 
     
-    ![](./images/B16782_03_026.jpg)
+![](./images/B16782_03_026.jpg)
 
 
 
-    Important note
+Important note
 
-    More details about the grouping functionality are provided in *Lab 4*,
-    *Data Aggregation*.
+More details about the grouping functionality are provided in *Lab 4*, *Data Aggregation*.
 
 5.  We can safely assume that these values both mean **New York**. To
     group them together, select both (hold *Ctrl*
@@ -617,7 +615,7 @@ file from the **Sample Files 3.6** folder and follow the steps:
     name:
 
     
-    ![](./images/B16782_03_035.jpg)
+![](./images/B16782_03_035.jpg)
 
 
 
@@ -625,10 +623,10 @@ file from the **Sample Files 3.6** folder and follow the steps:
     **Split Values** section, select **Automatic Split**:
 
     
-    ![](./images/B16782_03_036.jpg)
+![](./images/B16782_03_036.jpg)
 
 
-    When selecting **Automatic Split**, Tableau
+When selecting **Automatic Split**, Tableau
     Prep will attempt to identify the delimiter in
     the field automatically and subsequently create new fields as a
     result. If Tableau is unable to determine the delimiter, **Automatic
@@ -644,7 +642,7 @@ file from the **Sample Files 3.6** folder and follow the steps:
     **Cashier** field present in our data:
 
     
-    ![](./images/B16782_03_037.jpg)
+![](./images/B16782_03_037.jpg)
 
 
 
@@ -654,7 +652,7 @@ file from the **Sample Files 3.6** folder and follow the steps:
     **Cashier** field:
 
     
-    ![](./images/B16782_03_038.jpg)
+![](./images/B16782_03_038.jpg)
 
 
 
@@ -671,7 +669,7 @@ file from the **Sample Files 3.6** folder and follow the steps:
     click **Split**:
 
     
-    ![](./images/B16782_03_039.jpg)
+![](./images/B16782_03_039.jpg)
 
 
 

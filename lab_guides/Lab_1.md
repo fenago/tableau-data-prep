@@ -77,19 +77,19 @@ Open Tableau Prep:
     home screen. From here, you can take a number of actions, which
     we\'ll cover briefly:
 
-    ![](./images/B16782_01_002.jpg)
+![](./images/B16782_01_002.jpg)
 
-    In Tableau Prep, a **flow** is what we call a
+In Tableau Prep, a **flow** is what we call a
     data pipeline. If you\'ve used other software in the past, you may
     have referred to a pipeline as an **Extract,
     Transform, and Load** (**ETL**) process, **workflow**, or **data pipeline**. 
 
-    It\'s easy to start a new flow, simply by creating a data
+It\'s easy to start a new flow, simply by creating a data
     connection. To get started, click the blue **Connect to Data**
     button to expand the data connection options:
 
     
-    ![](./images/B16782_01_003.jpg)
+![](./images/B16782_01_003.jpg)
 
 
 From here, select your connection type, and that will complete the creation of a new flow:
@@ -104,7 +104,7 @@ In *Lab 2*, *Extract and Load Processes*, we\'ll cover the configuration of vari
     provided by Tableau:
 
     
-    ![](./images/B16782_01_005.jpg)
+![](./images/B16782_01_005.jpg)
 
 
 Both these flows use the sample **Superstore**
@@ -124,7 +124,7 @@ These example flows can be opened with one click and run locally.
     pane:
 
     
-    ![](./images/B16782_01_006.jpg)
+![](./images/B16782_01_006.jpg)
 
 
 The **Discover** pane has two sections that are always visible, **Training** and **Resources**.
@@ -137,7 +137,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     being the first one listed:
 
     
-    ![](./images/B16782_01_007.jpg)
+![](./images/B16782_01_007.jpg)
 
 
 
@@ -147,7 +147,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     single overview:
 
     
-    ![](./images/B16782_01_008.jpg)
+![](./images/B16782_01_008.jpg)
 
 
 
@@ -156,7 +156,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     in the top action bar:
 
     
-    ![](./images/B16782_01_009.jpg)
+![](./images/B16782_01_009.jpg)
 
 
 
@@ -167,7 +167,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     updates:
 
     
-    ![](./images/B16782_01_010.jpg)
+![](./images/B16782_01_010.jpg)
 
 
 
@@ -179,7 +179,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     input to ensure the column becomes visible to Tableau Prep:
 
     
-    ![](./images/B16782_01_011.jpg)
+![](./images/B16782_01_011.jpg)
 
 
 
@@ -188,7 +188,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     single input to update:
 
     
-    ![](./images/B16782_01_012.jpg)
+![](./images/B16782_01_012.jpg)
 
 
 
@@ -196,7 +196,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     all outputs with a single click:
 
     
-    ![](./images/B16782_01_013.jpg)
+![](./images/B16782_01_013.jpg)
 
 
 
@@ -204,7 +204,7 @@ The **Discover** pane has two sections that are always visible, **Training** and
     output to be generated only. This could significantly improve the
     flow runtime, a great benefit during
     development and testing:
-    ![](./images/B16782_01_014.jpg)
+![](./images/B16782_01_014.jpg)
 
 
 
@@ -268,7 +268,7 @@ this question without the need for additional reporting tools:
 1.  In Tableau Prep Builder, select the **All orders** step:
 
     
-    ![](./images/B16782_01_015.jpg)
+![](./images/B16782_01_015.jpg)
 
 
 
@@ -279,7 +279,7 @@ this question without the need for additional reporting tools:
     after having passed through the **All orders** step:
 
     
-    ![](./images/B16782_01_016.jpg)
+![](./images/B16782_01_016.jpg)
 
 
 
@@ -291,7 +291,7 @@ this question without the need for additional reporting tools:
     **Consumer**. From the context menu, select **Keep Only**:
 
     
-    ![](./images/B16782_01_017.jpg)
+![](./images/B16782_01_017.jpg)
 
 
 
@@ -310,7 +310,7 @@ Tableau Prep will instantly
     descending order:
 
     
-    ![](./images/B16782_01_018.jpg)
+![](./images/B16782_01_018.jpg)
 
 
 6.  Now, we can clearly see the top category
@@ -321,7 +321,7 @@ Tableau Prep will instantly
     category:
 
     
-    ![](./images/B16782_01_019.jpg)
+![](./images/B16782_01_019.jpg)
 
 
 
@@ -395,7 +395,7 @@ Desktop:
     format for any output step added to a flow:
 
     
-    ![](./images/B16782_01_021.jpg)
+![](./images/B16782_01_021.jpg)
 
 
 
@@ -406,7 +406,7 @@ Desktop:
     tools and spreadsheet applications:
 
     
-    ![](./images/B16782_01_022.jpg)
+![](./images/B16782_01_022.jpg)
 
 
 
@@ -418,7 +418,7 @@ Desktop:
     rather than all outputs
     in the flow:
 
-    ![](./images/B16782_01_023.jpg)
+![](./images/B16782_01_023.jpg)
 
 
 4.  Finally, open the CSV file in the tool of your choice for further
@@ -427,7 +427,7 @@ Desktop:
     and run the output again to
     update the saved CSV file:
 
-    ![](./images/B16782_01_024.jpg)
+![](./images/B16782_01_024.jpg)
 
 
 
@@ -487,7 +487,7 @@ analysis in Tableau Desktop:
     step, then select **Preview in Tableau Desktop**:
 
     
-    ![](./images/B16782_01_025.jpg)
+![](./images/B16782_01_025.jpg)
 
 
 2.  **Note:** It might take couple of minutes and Tableau
@@ -495,23 +495,23 @@ analysis in Tableau Desktop:
     new workbook connected to the data from the step we selected in the
     flow:
     
-    ![](./images/B16782_01_026.jpg)
+![](./images/B16782_01_026.jpg)
 
 3.  From here, you can perform the typical analysis you\'d perform in
     Tableau Desktop. Add a **Segment** filter for **Consumer**, a
     **Ship Mode** filter for **Same Day**.
 
-    ![](./images/5.png)
+![](./images/5.png)
 
-    **Note:** You can drag these fields in Filters menu from the left menu.
+**Note:** You can drag these fields in Filters menu from the left menu.
 
 4.  Create a bar chart
     using the **Category** dimension and the **CNT(Migrated Data)**
     measure, as shown in the following screenshot:
 
-    ![](./images/6.png)
+![](./images/6.png)
 
-    **Note:** You can drag the fields in Columns/Rows section as shown in the screenshot.
+**Note:** You can drag the fields in Columns/Rows section as shown in the screenshot.
 
     And with this, we\'ve found the
     answer to our question. **Office Supplies** is the

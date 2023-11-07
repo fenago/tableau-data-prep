@@ -103,7 +103,7 @@ following steps:
     to save your settings:
 
     
-    ![](./images/B16782_09_001.jpg)
+![](./images/B16782_09_001.jpg)
 
 
 2.  As a result of our union action, Tableau Prep
@@ -113,7 +113,7 @@ following steps:
     here simply by unchecking the box in the field list:
 
     
-    ![](./images/B16782_09_002.jpg)
+![](./images/B16782_09_002.jpg)
 
 
 
@@ -124,7 +124,7 @@ following steps:
     by clicking the data type icon **\#** and select **String** instead:
 
     
-    ![](./images/B16782_09_003.jpg)
+![](./images/B16782_09_003.jpg)
 
 
 
@@ -149,7 +149,7 @@ following steps:
     dataset to **In-Store Sales**:
 
     
-    ![](./images/B16782_09_004.jpg)
+![](./images/B16782_09_004.jpg)
 
 
 
@@ -164,7 +164,7 @@ following steps:
     this source field to a date:
 
     
-    ![](./images/B16782_09_005.jpg)
+![](./images/B16782_09_005.jpg)
 
 
 
@@ -176,16 +176,16 @@ following steps:
     format. Click **Save** when done to apply your new calculation:
 
     
-    ![](./images/B16782_09_006.jpg)
+![](./images/B16782_09_006.jpg)
 
 
 
-    Observe the outcome and ensure that the
+Observe the outcome and ensure that the
     format is indeed date and time, as shown in
     the following screenshot:
 
     
-    ![](./images/B16782_09_007.jpg)
+![](./images/B16782_09_007.jpg)
 
 
 
@@ -196,7 +196,7 @@ following steps:
     following screenshot:
 
     
-    ![](./images/B16782_09_008.jpg)
+![](./images/B16782_09_008.jpg)
 
 
 10. We also no longer require the original
@@ -206,7 +206,7 @@ following steps:
     screenshot:
 
     
-    ![](./images/B16782_09_009.jpg)
+![](./images/B16782_09_009.jpg)
 
 
 11. Next, we\'re going to combine the online sales
@@ -217,15 +217,15 @@ following steps:
     screenshot:
 
     
-    ![](./images/B16782_09_010.jpg)
+![](./images/B16782_09_010.jpg)
 
 
-    This will automatically create a **Union**
+This will automatically create a **Union**
     step and your screen should look like the
     following screenshot:
 
     
-    ![](./images/B16782_09_011.jpg)
+![](./images/B16782_09_011.jpg)
 
 
 12. In the bottom left of the window, we can see
@@ -242,25 +242,24 @@ following steps:
     merged field will take the name of the field you right-clicked:
 
     
-    ![](./images/B16782_09_012.jpg)
+![](./images/B16782_09_012.jpg)
 
 
-    Perform this **Merge Fields** action for the
-    field pairs listed here:
+Perform this **Merge Fields** action for the field pairs listed here:
 
-    -   **Purchase Date** and **PurchaseDate**
+- **Purchase Date** and **PurchaseDate**
 
-    -   **PurchaseId** and **TransactionID**
+- **PurchaseId** and **TransactionID**
 
-    -   **discountpercentage** and **Discount%**
+- **discountpercentage** and **Discount%**
 
-    -   **quantity** and **Quantity**
+- **quantity** and **Quantity**
 
-    -   **productId** and **Product_ID**
+- **productId** and **Product_ID**
 
-    -   **custId** and **CustomerID**
+- **custId** and **CustomerID**
 
-        When you\'ve completed all the merges,
+When you\'ve completed all the merges,
         your **Settings** tab should look like the
         following screenshot:
 
@@ -278,7 +277,7 @@ following steps:
     in the following screenshot:
 
     
-    ![](./images/B16782_09_014.jpg)
+![](./images/B16782_09_014.jpg)
 
 
 2.  Next, create another data connection, this time to the
@@ -300,7 +299,7 @@ following steps:
     default join type, inner, can be left as-is:
 
     
-    ![](./images/B16782_09_015.jpg)
+![](./images/B16782_09_015.jpg)
 
 
 5.  As is typical with a join, we now have a redundant field for product
@@ -310,7 +309,7 @@ following steps:
     identifier:
 
     
-    ![](./images/B16782_09_016.jpg)
+![](./images/B16782_09_016.jpg)
 
 
 
@@ -328,11 +327,11 @@ following steps:
     context menu for the **ID** field:
 
     
-    ![](./images/B16782_09_017.jpg)
+![](./images/B16782_09_017.jpg)
 
 
 
-    -   Configure the split to use the underscore (**\_**) symbol as a
+- Configure the split to use the underscore (**\_**) symbol as a
         separator and split the first **2** fields, as shown in the
         following screenshot:
 
@@ -363,7 +362,7 @@ following steps:
     screenshot:
 
     
-    ![](./images/B16782_09_019.jpg)
+![](./images/B16782_09_019.jpg)
 
 
 
@@ -413,23 +412,23 @@ following steps:
 
 14. Click the **+** icon on the last join and add a **Clean** step.
     Using the **Clean** step, rename the fields as follows:
-    -   **custId** to **Customer ID**
-    -   **productId** to **Product ID**
-    -   **quantity** to **Quantity**
-    -   **discountpercentage** to **Discount %**
-    -   **TransactionID** to **Transaction ID**
-    -   **RECIPIENT_NAME** to **Recipient Name**
-    -   **RECIPIENT_STREET** to **Recipient Street**
-    -   **RECIPIENT_CITY** to **Recipient City**
-    -   **RECIPIENT_POSTAL** to **Recipient Postal**
-    -   **RECIPIENT_REGION** to **Recipient Region**
-    -   **SHIPMODE** to **Shipping Mode**
-    -   **TRACEID** to **Shipping Courier Tracking ID**
-    -   **STATUS** to **Shipping Status**
-    -   **name** to **Customer Name**
-    -   **surname** to **Customer Surname**
-    -   **status** to **Customer Membership Status**
-    -   **return_id** to **Return ID**
+- **custId** to **Customer ID**
+- **productId** to **Product ID**
+- **quantity** to **Quantity**
+- **discountpercentage** to **Discount %**
+- **TransactionID** to **Transaction ID**
+- **RECIPIENT_NAME** to **Recipient Name**
+- **RECIPIENT_STREET** to **Recipient Street**
+- **RECIPIENT_CITY** to **Recipient City**
+- **RECIPIENT_POSTAL** to **Recipient Postal**
+- **RECIPIENT_REGION** to **Recipient Region**
+- **SHIPMODE** to **Shipping Mode**
+- **TRACEID** to **Shipping Courier Tracking ID**
+- **STATUS** to **Shipping Status**
+- **name** to **Customer Name**
+- **surname** to **Customer Surname**
+- **status** to **Customer Membership Status**
+- **return_id** to **Return ID**
 
 15. As a final step, we need to add an output step
     to our flow. Click the **+** icon on the
@@ -519,7 +518,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     well:
 
     
-    ![](./images/B16782_09_021.jpg)
+![](./images/B16782_09_021.jpg)
 
 
 
@@ -531,7 +530,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     business\'s low survey score:
 
     
-    ![](./images/B16782_09_022.jpg)
+![](./images/B16782_09_022.jpg)
 
 
 3.  Let\'s now get the average score by adding an
@@ -543,7 +542,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     screenshot:
 
     
-    ![](./images/B16782_09_023.jpg)
+![](./images/B16782_09_023.jpg)
 
 
 4.  Now that we know the average score, let\'s narrow our dataset to
@@ -555,7 +554,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     1-4 only:
 
     
-    ![](./images/B16782_09_024.jpg)
+![](./images/B16782_09_024.jpg)
 
 
 5.  Let\'s see what we can find out from the call
@@ -571,7 +570,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     the following screenshot:
 
     
-    ![](./images/B16782_09_025.jpg)
+![](./images/B16782_09_025.jpg)
 
 
 6.  Let\'s join this data with our survey data. To
@@ -586,7 +585,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     calls matching our filtered survey data come through:
 
     
-    ![](./images/B16782_09_026.jpg)
+![](./images/B16782_09_026.jpg)
 
 
 7.  To keep your dataset lean, add a new **Clean**
@@ -602,10 +601,10 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     following screenshot:
 
     
-    ![](./images/B16782_09_027.jpg)
+![](./images/B16782_09_027.jpg)
 
 
-    We will need to compare this information
+We will need to compare this information
     to calls with a higher survey score, that is,
     calls with a score of between 5 and 10. We\'ll proceed to do so in
     the next step.
@@ -621,7 +620,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     (which is filtered for results with a score of 1-4 only):
 
     
-    ![](./images/B16782_09_028.jpg)
+![](./images/B16782_09_028.jpg)
 
 
 
@@ -656,10 +655,10 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     Score**, as shown in the following screenshot:
 
     
-    ![](./images/B16782_09_029.jpg)
+![](./images/B16782_09_029.jpg)
 
 
-    In the **Union Results** view, we can now easily compare the call
+In the **Union Results** view, we can now easily compare the call
     data. While the **wait_time_seconds** and **after_call_seconds**
     values are relatively similar, we can see a
     significant difference in
@@ -678,23 +677,23 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     following screenshot:
 
     
-    ![](./images/B16782_09_029.jpg)
+![](./images/B16782_09_029.jpg)
 
 
 
-    Notice that **1,363** customers out of a total of 3,830
+Notice that **1,363** customers out of a total of 3,830
     (**1,363**+**2,467**) customers experienced a
     higher call time, at least on average, and
     left a negative survey score. That equates to 36% of all callers.
 
-    Important note
+Important note
 
-    Don\'t forget your plain old calculator. Oftentimes, simple quick
-    calculations during an ad hoc analysis, such as determining the
-    percentage difference in this step, are done faster on a simple
-    calculator. If you do not need to recalculate this value again or do
-    not intend to run your flow against new data, this simple tip can
-    often save you time.
+Don\'t forget your plain old calculator. Oftentimes, simple quick
+calculations during an ad hoc analysis, such as determining the
+percentage difference in this step, are done faster on a simple
+calculator. If you do not need to recalculate this value again or do
+not intend to run your flow against new data, this simple tip can
+often save you time.
 
 14. The datasets supplied also include a case data file. This data
     contains an extract from the call center case management system and
@@ -714,7 +713,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     screenshot:
 
     
-    ![](./images/B16782_09_031.jpg)
+![](./images/B16782_09_031.jpg)
 
 
 
@@ -724,7 +723,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     the following screenshot:
 
     
-    ![](./images/B16782_09_032.jpg)
+![](./images/B16782_09_032.jpg)
 
 
 17. Next, add a **Clean** step and observe the
@@ -738,7 +737,7 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     shown in the following screenshot:
 
     
-    ![](./images/B16782_09_033.jpg)
+![](./images/B16782_09_033.jpg)
 
 
 

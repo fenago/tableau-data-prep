@@ -63,7 +63,7 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     screenshot:
 
     
-    ![](./images/B16782_07_001.jpg)
+![](./images/B16782_07_001.jpg)
 
 
 2.  Click the plus icon on your **December 2016
@@ -72,7 +72,7 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     as shown in the following screenshot:
 
     
-    ![](./images/B16782_07_002.jpg)
+![](./images/B16782_07_002.jpg)
 
 
 
@@ -90,22 +90,22 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     potential calculation issues as they occur:
 
     
-    ![](./images/B16782_07_003.jpg)
+![](./images/B16782_07_003.jpg)
 
 
-    Important note
+Important note
 
-    In the **Add Field** dialog, you can type your
+In the **Add Field** dialog, you can type your
     calculation from scratch or use the functions listed in the
     **Reference** list to the right to get started. When selecting an
     advanced function in the **Reference** list, you will see an
     explanation of that function to the right.
 
-    When you double-click an item in the **Reference** list, it will
+When you double-click an item in the **Reference** list, it will
     automatically add a template calculation to the input box to the
     right so that you can build calculations faster.
 
-    The **Reference** list does not include basic arithmetic operations,
+The **Reference** list does not include basic arithmetic operations,
     such as addition or subtraction. Nevertheless, you can use such
     operators in your calculations.
 
@@ -123,7 +123,7 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     calculation:
 
     
-    ![](./images/B16782_07_004.jpg)
+![](./images/B16782_07_004.jpg)
 
 
 
@@ -132,7 +132,7 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     calculated field:
 
     
-    ![](./images/B16782_07_005.jpg)
+![](./images/B16782_07_005.jpg)
 
 
 
@@ -143,13 +143,13 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     shown in the following screenshot:
 
     
-    ![](./images/B16782_07_006.jpg)
+![](./images/B16782_07_006.jpg)
 
 
 
-    Important note
+Important note
 
-    Although Tableau Prep indicated that the
+Although Tableau Prep indicated that the
     calculation is valid, it only checks for the arithmetic and logic,
     not whether your calculation outcome is the one you were aiming for.
     Because Tableau Prep has a handy data preview instantly available to
@@ -170,7 +170,7 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     Field**:
 
     
-    ![](./images/B16782_07_007.jpg)
+![](./images/B16782_07_007.jpg)
 
 
 9.  In order to calculate the sales tax amount, we could create a
@@ -184,7 +184,7 @@ Files 7.1** folder in **Tableau Prep**, then follow these steps:
     or leverage the autocomplete suggestions:
 
     
-    ![](./images/B16782_07_008.jpg)
+![](./images/B16782_07_008.jpg)
 
 
 
@@ -276,7 +276,7 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     **Electronics**, **Groceries**, and **Household Appliances**:
 
     
-    ![](./images/B16782_07_010.jpg)
+![](./images/B16782_07_010.jpg)
 
 
 
@@ -284,7 +284,7 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     dialog. Name the new calculation **Sales Tax Amount**:
 
     
-    ![](./images/B16782_07_011.jpg)
+![](./images/B16782_07_011.jpg)
 
 
 
@@ -296,7 +296,7 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     calculation input box, as shown in the following screenshot:
 
     
-    ![](./images/B16782_07_012.jpg)
+![](./images/B16782_07_012.jpg)
 
 
 
@@ -313,7 +313,7 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     of the screen):
 
     
-    ![](./images/B16782_07_013.jpg)
+![](./images/B16782_07_013.jpg)
 
 
 
@@ -326,11 +326,11 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     Amount** field:
 
     
-    ![](./images/B16782_07_014.jpg)
+![](./images/B16782_07_014.jpg)
 
 
 
-    In our updated dataset, as shown in the
+In our updated dataset, as shown in the
     previous screenshot, we can see that each row with a **Department**
     value of **Electronics** has the **Sales Tax Amount** field
     populated. However, all other rows, that is, those with
@@ -345,7 +345,7 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     calculated field to return to the calculation editor:
 
     
-    ![](./images/B16782_07_015.jpg)
+![](./images/B16782_07_015.jpg)
 
 
 7.  Update the calculation by inserting **ELSE 0**
@@ -353,7 +353,7 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     conditions you specified are met, it should return a zero:
 
     
-    ![](./images/B16782_07_016.jpg)
+![](./images/B16782_07_016.jpg)
 
 
 
@@ -383,29 +383,29 @@ Start by opening the **December 2016 Sales.xlsx** flow from the **Sample Files 7
     when ready:
 
     
-    ![](./images/B16782_07_018.jpg)
+![](./images/B16782_07_018.jpg)
 
 
 
-    Important note
+Important note
 
-    The calculation here can be written in different ways. We included
+The calculation here can be written in different ways. We included
     some duplicative code here, namely
     **\[Subtotal\] \***. This is causing the calculation to become
     lengthier but easier to read. You may apply a different calculation,
     such as the following, to achieve the same output:
     
-    ```
-    [Subtotal]*
+```
+[Subtotal]*
 
-    IF [Department] = "Electronics" THEN 0.21
+IF [Department] = "Electronics" THEN 0.21
 
-    ELSEIF [Department] = "Groceries" THEN 0.05
+ELSEIF [Department] = "Groceries" THEN 0.05
 
-    ELSEIF [Department] = "Household Appliances" THEN 0.10
+ELSEIF [Department] = "Household Appliances" THEN 0.10
 
-    ELSE 0 END
-    ```
+ELSE 0 END
+```
 
 10. In the data preview, confirm that each **Department** type now has a
     calculated **Sales Tax Amount** value:
@@ -490,7 +490,7 @@ Files 7.3** folder in **Tableau Prep**, then follow these steps:
     initial:
 
     
-    ![](./images/B16782_07_020.jpg)
+![](./images/B16782_07_020.jpg)
 
 
 
@@ -520,7 +520,7 @@ Files 7.3** folder in **Tableau Prep**, then follow these steps:
     **Yates**, and the sixth character is the comma:
 
     
-    ![](./images/B16782_07_022.jpg)
+![](./images/B16782_07_022.jpg)
 
 
 5.  We need to amend our calculation in order to return the last name in
@@ -545,7 +545,7 @@ Files 7.3** folder in **Tableau Prep**, then follow these steps:
     comma character itself:
 
     
-    ![](./images/B16782_07_024.jpg)
+![](./images/B16782_07_024.jpg)
 
 
 
@@ -657,7 +657,7 @@ steps:
     numbers:
 
     
-    ![](./images/B16782_07_027.jpg)
+![](./images/B16782_07_027.jpg)
 
 
 
@@ -666,13 +666,13 @@ steps:
     **String**:
 
     
-    ![](./images/B16782_07_028.jpg)
+![](./images/B16782_07_028.jpg)
 
 
 
-    Important note
+Important note
 
-    You can change the data type of any field
+You can change the data type of any field
     during an input step, or in any subsequent
     clean step. However, in this particular scenario, we\'ll want to
     change the data type during the input step. The reason for this is
@@ -689,7 +689,7 @@ steps:
     month, and four to indicate the year, without any separator symbols:
 
     
-    ![](./images/B16782_07_029.jpg)
+![](./images/B16782_07_029.jpg)
 
 
 4.  Click on **Create Calculated Field** and name
@@ -717,13 +717,13 @@ steps:
     values, rather than adding them:
 
     
-    ![](./images/B16782_07_030.jpg)
+![](./images/B16782_07_030.jpg)
 
 
 
-    Important note
+Important note
 
-    As we saw in *Step 3*, the date format in our
+As we saw in *Step 3*, the date format in our
     source is day, month, year. Yet in our
     calculation, we organized it as month, day, year. The reason for
     this US-style date formatting is that is the format that Tableau

@@ -60,7 +60,7 @@ Start by opening **Tableau Prep** and perform the following steps:
     resulting in the need for a separate connection here:
 
     
-    ![](./images/B16782_05_001.jpg)
+![](./images/B16782_05_001.jpg)
 
 
 
@@ -72,15 +72,15 @@ Start by opening **Tableau Prep** and perform the following steps:
     options appear, **Union** and **Join**:
 
     
-    ![](./images/B16782_05_002.jpg)
+![](./images/B16782_05_002.jpg)
 
 
-    Drag the connection so that **Union** is
+Drag the connection so that **Union** is
     highlighted, and then release. Tableau Prep
     will instantly add a step named **Union 1**:
 
     
-    ![](./images/B16782_05_003.jpg)
+![](./images/B16782_05_003.jpg)
 
 
 
@@ -94,22 +94,22 @@ Start by opening **Tableau Prep** and perform the following steps:
     **DataExport_NOV_SalesData.csv**:
 
     
-    ![](./images/B16782_05_004.jpg)
+![](./images/B16782_05_004.jpg)
 
 
 
-    Important note
+Important note
 
-    In the bottom pane, take
-    note of the two colors Tableau Prep has
-    assigned to each data connection; blue for
-    **DataExport_NOV_Sales.csv** and amber for
-    **DataExport_NOV_SalesData.csv**. Observe the column headers and
-    notice the multi-colored bar beneath all the field names, with the
-    exception of the **Table Names** field. This multi-colored bar
-    indicates from which data connection the field was sourced. In our
-    case, all bars are a combination of blue and amber, meaning data was
-    sourced from both data connections.
+In the bottom pane, take
+note of the two colors Tableau Prep has
+assigned to each data connection; blue for
+**DataExport_NOV_Sales.csv** and amber for
+**DataExport_NOV_SalesData.csv**. Observe the column headers and
+notice the multi-colored bar beneath all the field names, with the
+exception of the **Table Names** field. This multi-colored bar
+indicates from which data connection the field was sourced. In our
+case, all bars are a combination of blue and amber, meaning data was
+sourced from both data connections.
 
 5.  Now let\'s add a third data connection to your flow. This time,
     connect to the **POS_Sales_Data_November_2016.xlsx** file,
@@ -120,7 +120,7 @@ Start by opening **Tableau Prep** and perform the following steps:
     input field names by selecting the input step:
 
     
-    ![](./images/B16782_05_005.jpg)
+![](./images/B16782_05_005.jpg)
 
 
 
@@ -133,11 +133,11 @@ Start by opening **Tableau Prep** and perform the following steps:
     3* earlier. We have **Add**, **Union**, and **Join**:
 
     
-    ![](./images/B16782_05_006.jpg)
+![](./images/B16782_05_006.jpg)
 
 
 
-    Hover to the left to highlight the **Add** action and release the
+Hover to the left to highlight the **Add** action and release the
     mouse button. This will add the third source to your existing union.
     If you have selected **Union** instead, a second union step would
     have been created, combining **Union 1** with the third data
@@ -152,11 +152,11 @@ Start by opening **Tableau Prep** and perform the following steps:
     **POS_Sales_Data_November_2016.xlsx** connection:
 
     
-    ![](./images/B16782_05_007.jpg)
+![](./images/B16782_05_007.jpg)
 
 
 
-    Using the same color bars we described in *Step 4*, you can quickly
+Using the same color bars we described in *Step 4*, you can quickly
     see the origins of each field. For example, **SalesID** is blue and
     amber, meaning it contains data from those two data connections.
     That is, the **SalesID** field does not exist in the
@@ -265,16 +265,16 @@ a dynamic input and union step:
     pane, select **Multiple Files**, followed by **Wildcard union**:
 
     
-    ![](./images/B16782_05_009.jpg)
+![](./images/B16782_05_009.jpg)
 
 
-    **Wildcard union** allows you to perform a union within the input
+**Wildcard union** allows you to perform a union within the input
     data connection. That is, you can union multiple files at the same
     time. Wildcards, represented by the asterisk, *\**, symbol, are
     utilized to refer to any number of files in a given directory that
     match a certain naming pattern.
 
-    In this exercise, we will perform a union to combine all 12 Excel
+In this exercise, we will perform a union to combine all 12 Excel
     files in the sample folder.
 
 3.  By default, **Matching Pattern** is identical to the filename of the
@@ -293,18 +293,18 @@ a dynamic input and union step:
     contains two sheets, **Sales_Data** and **Info**:
 
     
-    ![](./images/B16782_05_010.jpg)
+![](./images/B16782_05_010.jpg)
 
 
 
-    The data we want to capture resides in the **Sales_Data** sheet. As
+The data we want to capture resides in the **Sales_Data** sheet. As
     such, we need to provide a matching pattern for sheets, so that only
     the sheet carrying that name will be included. Since the sheet names
     are identical, we can achieve this without a wildcard.
 
-    Note that we can set our **Matching Pattern** behavior to
+Note that we can set our **Matching Pattern** behavior to
     **Include** or **Exclude**. Using the dropdown highlighted in
-    *Figure 5.10*, by setting this option to **Exclude**, you can
+    above figure, by setting this option to **Exclude**, you can
     specify the **Matching Pattern** value as **Info**. In doing so,
     you\'re instructing Tableau Prep to exclude all sheets named
     **Info**.
@@ -321,11 +321,11 @@ a dynamic input and union step:
     pane:
 
     
-    ![](./images/B16782_05_011.jpg)
+![](./images/B16782_05_011.jpg)
 
 
 
-    Notice that there is a field named **Revenue** with null values.
+Notice that there is a field named **Revenue** with null values.
     Throughout this course, we\'ve used these sample files multiple times
     and the **Revenue** field name is unexpected, as is the null value.
     To investigate this further, add a clean step to your flow.
@@ -341,7 +341,7 @@ a dynamic input and union step:
     except the **November 2016 Sales.xlsx** file:
 
     
-    ![](./images/B16782_05_012.jpg)
+![](./images/B16782_05_012.jpg)
 
 
 8.  The only other numeric field in the dataset is **Transaction
@@ -429,7 +429,7 @@ the two sample files using the **Inner Join** functionality:
     **cust_id** field:
 
     
-    ![](./images/B16782_05_015.jpg)
+![](./images/B16782_05_015.jpg)
 
 
 2.  In our sample data folder, there is a separate file containing
@@ -449,17 +449,17 @@ the two sample files using the **Inner Join** functionality:
     mouse hold:
 
     
-    ![](./images/B16782_05_016.jpg)
+![](./images/B16782_05_016.jpg)
 
 
-    A join will always require additional configuration before it is
+A join will always require additional configuration before it is
     ready for use. Because Tableau Prep instantly evaluates the validity
     of your flow, creating a new join will initially result in a warning
     message. This is expected behavior and nothing to be concerned
     about:
 
     
-    ![](./images/B16782_05_017.jpg)
+![](./images/B16782_05_017.jpg)
 
 
 
@@ -590,10 +590,10 @@ the sample sales data with the customer loyalty card data, if available:
     bottom pane:
 
     
-    ![](./images/B16782_05_022.jpg)
+![](./images/B16782_05_022.jpg)
 
 
-    Note that Tableau Prep indicates
+Note that Tableau Prep indicates
     a number of mismatched
     values in the **Summary of Join Results**
     section. Because the default join type is an
@@ -604,10 +604,10 @@ the sample sales data with the customer loyalty card data, if available:
     case, out of a total of 826 sales transactions:
 
     
-    ![](./images/B16782_05_023.jpg)
+![](./images/B16782_05_023.jpg)
 
 
-    The middle section in the
+The middle section in the
     join step settings shows
     all the IDs that could not be matched in a red
     font. For example, **null** from **Sales Data** could not be matched
@@ -617,7 +617,7 @@ the sample sales data with the customer loyalty card data, if available:
     therefore is also excluded from the join results:
 
     
-    ![](./images/B16782_05_024.jpg)
+![](./images/B16782_05_024.jpg)
 
 5.  In our case, we want to return all our
     sales data rows and simply augment them with
@@ -731,7 +731,7 @@ a full outer join to combine project and people data:
     same data connection:
 
     
-    ![](./images/B16782_05_028.jpg)
+![](./images/B16782_05_028.jpg)
 
 
 
@@ -833,7 +833,7 @@ a **not inner join**:
     done, the join type will state **notInner**:
 
     
-    ![](./images/B16782_05_030.jpg)
+![](./images/B16782_05_030.jpg)
 
 
 

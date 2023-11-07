@@ -61,7 +61,7 @@ ready on your computer and open up Tableau Prep Builder:
     **Connect** pane:
 
     
-    ![](./images/B16782_02_001.jpg)
+![](./images/B16782_02_001.jpg)
 
 
 
@@ -70,20 +70,20 @@ ready on your computer and open up Tableau Prep Builder:
     file, **December 2016 Sales.csv**, and open it:
 
     
-    ![](./images/B16782_02_002.jpg)
+![](./images/B16782_02_002.jpg)
 
 
 
-    Once selected, Tableau
+Once selected, Tableau
     Prep will automatically create a new flow with
     the data connection in it:
 
     
-    ![](./images/B16782_02_003.jpg)
+![](./images/B16782_02_003.jpg)
 
 
 
-    Since the data
+Since the data
     connection is automatically selected, all
     options onscreen now relate to that particular connection. On the
     left-hand side, you can see the **Tables** pane. Note that there is
@@ -94,18 +94,17 @@ ready on your computer and open up Tableau Prep Builder:
     should be easier to master:
 
     
-    ![](./images/B16782_02_004.jpg)
+![](./images/B16782_02_004.jpg)
 
 
-
-    In the bottom pane, you
+In the bottom pane, you
     can find a summary of all data fields identified in your text file,
     along with the automatically determined data type. In *Lab 3*,
     *Cleaning Transformations*, we\'ll dive into the cleaning options
     you can perform here:
 
     
-    ![](./images/B16782_02_005.jpg)
+![](./images/B16782_02_005.jpg)
 
 
 
@@ -125,7 +124,7 @@ ready on your computer and open up Tableau Prep Builder:
     appropriately but you can alter them here as needed:
 
     
-    ![](./images/B16782_02_006.jpg)
+![](./images/B16782_02_006.jpg)
 
 
 
@@ -135,7 +134,7 @@ ready on your computer and open up Tableau Prep Builder:
     and select **Microsoft Excel**:
 
     
-    ![](./images/B16782_02_007.jpg)
+![](./images/B16782_02_007.jpg)
 
 
 
@@ -149,7 +148,7 @@ ready on your computer and open up Tableau Prep Builder:
     each Excel sheet is considered a table:
 
     
-    ![](./images/B16782_02_008.jpg)
+![](./images/B16782_02_008.jpg)
 
 
 6.  In order to continue, we
@@ -163,7 +162,7 @@ ready on your computer and open up Tableau Prep Builder:
     The colors do not denote any kind of functionality:
 
     
-    ![](./images/B16782_02_009.jpg)
+![](./images/B16782_02_009.jpg)
 
 
 
@@ -175,7 +174,7 @@ ready on your computer and open up Tableau Prep Builder:
     tab for this function:
 
     
-    ![](./images/B16782_02_010.jpg)
+![](./images/B16782_02_010.jpg)
 
 
 
@@ -183,7 +182,7 @@ ready on your computer and open up Tableau Prep Builder:
     the options:
 
     
-    ![](./images/B16782_02_011.jpg)
+![](./images/B16782_02_011.jpg)
 
 
 
@@ -261,7 +260,7 @@ computer, and open Tableau Prep Builder:
     headers **Department** and **Amount**:
 
     
-    ![](./images/B16782_02_014.jpg)
+![](./images/B16782_02_014.jpg)
 
 
 
@@ -270,7 +269,7 @@ computer, and open Tableau Prep Builder:
     dialog and select our sample PDF file, **Sales Summary.pdf**:
 
     
-    ![](./images/B16782_02_015.jpg)
+![](./images/B16782_02_015.jpg)
 
 
 
@@ -280,7 +279,7 @@ computer, and open Tableau Prep Builder:
     as expected:
 
     
-    ![](./images/B16782_02_016.jpg)
+![](./images/B16782_02_016.jpg)
 
 
 
@@ -471,7 +470,7 @@ Then, follow along with these steps:
     **Output** option:
 
     
-    ![](./images/B16782_02_029.jpg)
+![](./images/B16782_02_029.jpg)
 
 
 
@@ -489,7 +488,7 @@ Then, follow along with these steps:
     file:
 
     
-    ![](./images/B16782_02_030.jpg)
+![](./images/B16782_02_030.jpg)
 
 
 
@@ -501,7 +500,7 @@ Then, follow along with these steps:
     existing hyper file:
 
     
-    ![](./images/B16782_02_031.jpg)
+![](./images/B16782_02_031.jpg)
 
 
 5.  We can adjust our output settings as desired. In this example,
@@ -513,7 +512,7 @@ Then, follow along with these steps:
     the output has been produced:
 
     
-    ![](./images/B16782_02_032.jpg)
+![](./images/B16782_02_032.jpg)
 
 
 
@@ -567,7 +566,7 @@ these steps:
     refresh in the next steps:
 
     
-    ![](./images/B16782_02_042.jpg)
+![](./images/B16782_02_042.jpg)
 
     Tableau Prep needs to know three bits of
     information in the input step to configure a incremental refresh.
@@ -577,7 +576,7 @@ these steps:
     **Order Date**. Select this from the **Input field** dropdown to
     reveal the additional settings:
 
-    ![](./images/B16782_02_043.jpg)
+![](./images/B16782_02_043.jpg)
 
 
 Next, we need to tell Tableau Prep in which output

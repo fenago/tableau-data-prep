@@ -63,11 +63,10 @@ data:
     the data:
 
     
-    ![](./images/B16782_06_001.jpg)
+![](./images/B16782_06_001.jpg)
 
 
-
-    Notice how the first three columns have many null values. You may
+Notice how the first three columns have many null values. You may
     inspect the data to find that for each row, only one of these
     columns has a value. In this dataset, the columns represent the
     product category, and the value is the amount of revenue from the
@@ -78,7 +77,7 @@ data:
     **Pivot** step to your flow:
 
     
-    ![](./images/B16782_06_002.jpg)
+![](./images/B16782_06_002.jpg)
 
 
 
@@ -119,22 +118,22 @@ data:
     can be seen in the following screenshot:
 
     
-    ![](./images/B16782_06_005.jpg)
+![](./images/B16782_06_005.jpg)
 
 
-    To investigate this increase in row count,
+To investigate this increase in row count,
     search for **Valentine** in the **Sales Person** field, then select
     the name **Valentine** **Ivor W** in order to
     filter the data to just this person.
 
-    The data preview section will now show us three rows, two of which
+The data preview section will now show us three rows, two of which
     have no value for **Revenue**. This is the result of the **Pivot**
     step, which creates a new row for each column we pivot. In our
     example, we are pivoting three columns and hence have gotten three
     rows per source row in return, as seen in the following screenshot:
 
     
-    ![](./images/B16782_06_006.jpg)
+![](./images/B16782_06_006.jpg)
 
 
 6.  To maintain our data integrity, we need to
@@ -217,16 +216,16 @@ columns to rows using wildcards:
     preview ](./images/B16782_06_008.jpg)
 
 
-    Important note
+Important note
 
-    Note that the sales data includes revenue information per **product
+Note that the sales data includes revenue information per **product
     category**. Each category field name is prefixed with **Cat\_**. In
     this example, we have three product categories: **Groceries**,
     **Electronics**, and **Household Appliances**. These three
     categories are shown in our data as **Cat_Groceries**,
     **Cat_Electronics**, and **Cat_Household Appliances**.
 
-    Suppose the dataset we connected to only includes a product column
+Suppose the dataset we connected to only includes a product column
     when an actual sale was made in that product category for the time
     period that the data reflects. That is, if no sales were made for
     the **Cat_Electronics** category, then that category would not
@@ -247,7 +246,7 @@ columns to rows using wildcards:
     pane, click the **Use wildcard search to pivot** link text:
 
     
-    ![](./images/B16782_06_009.jpg)
+![](./images/B16782_06_009.jpg)
 
 
 
@@ -255,11 +254,11 @@ columns to rows using wildcards:
     the **Pivot 1 Values** text box and press the *Enter* key:
 
     
-    ![](./images/B16782_06_010.jpg)
+![](./images/B16782_06_010.jpg)
 
 
 
-    You\'ve now performed a wildcard search on the field names in our
+You\'ve now performed a wildcard search on the field names in our
     dataset. And each field including the text **Cat\_** is identified
     and added to the **Pivot** step.
 
@@ -268,11 +267,10 @@ columns to rows using wildcards:
     with**:
 
     
-    ![](./images/B16782_06_011.jpg)
+![](./images/B16782_06_011.jpg)
 
 
-
-    Setting **Search Options** to **Starts with** will ensure that only
+Setting **Search Options** to **Starts with** will ensure that only
     field names starting with **Cat\_** are included in our pivot. In
     the unlikely event that our product category includes the characters
     **Cat\_** anywhere else, as part of the category name, such fields
@@ -288,7 +286,7 @@ columns to rows using wildcards:
     Save and close the file when done:
 
     
-    ![](./images/B16782_06_012.jpg)
+![](./images/B16782_06_012.jpg)
 
 
 
@@ -369,31 +367,31 @@ to columns:
     can easily inspect the data:
 
     
-    ![](./images/B16782_06_014.jpg)
+![](./images/B16782_06_014.jpg)
 
 
 
-    We can observe two items of interest in the
+We can observe two items of interest in the
     cleaning step that will confirm our need to
     apply a pivot transformation, specifically pivoting rows to columns.
 
-    Firstly, in the data preview, we can see that **TransactionID** is
+Firstly, in the data preview, we can see that **TransactionID** is
     always repeated: there are two rows with value **1**, two rows with
     value **2**, two rows with value **3**, and so forth:
 
     
-    ![](./images/B16782_06_015.jpg)
+![](./images/B16782_06_015.jpg)
 
 
 
-    Upon further investigation, we can see that
+Upon further investigation, we can see that
     there is only one difference between each pair
     of rows, where a pair is a set of rows with matching
     **TransactionID** values. That difference is in the **LineItem**
     field. From the profile pane, we can easily see that there are two
     distinct values in this field, **Revenue** and **Tax**.
 
-    And so we can conclude that one row is the revenue amount for a
+And so we can conclude that one row is the revenue amount for a
     given transaction, and the other row is the tax amount for that same
     transaction. In order to make reporting easier, we want to have two
     columns instead, one for revenue and another for tax. This is where
@@ -403,7 +401,7 @@ to columns:
     from the dropdown in the **Pivoted Fields** section:
 
     
-    ![](./images/B16782_06_016.jpg)
+![](./images/B16782_06_016.jpg)
 
 
 
@@ -426,13 +424,13 @@ to columns:
     completes the configuration:
 
     
-    ![](./images/B16782_06_017.jpg)
+![](./images/B16782_06_017.jpg)
 
 
 
-    Tip
+Tip
 
-    You can change the aggregation at this time from the default **SUM**
+You can change the aggregation at this time from the default **SUM**
     to any other method. For example, suppose you have student exam test
     results; you may choose to aggregate using the average, in order to
     return the average test score per student.

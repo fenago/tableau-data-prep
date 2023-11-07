@@ -60,23 +60,23 @@ Start by opening the **Superstore.tflx** flow from the **Sample Files
     included in the hyper file when the flow runs:
 
     
-    ![](./images/B16782_04_001.jpg)
+![](./images/B16782_04_001.jpg)
 
 2.  Click the play icon at the top of the screen
     to run your flow. If you\'ve not altered the output settings, this
     will create the **Superstore Sales.hyper** file in your **My Tableau
     Prep Repository\\Datasources** folder in your lab environment:
  
-    ![](./images/B16782_04_002.jpg)
+![](./images/B16782_04_002.jpg)
 
 
 3.  Leave Tableau Prep open and start up **Tableau Desktop**. In Tableau
     Desktop, connect to the **Superstore Sales.hyper** file you just created:
 
        
-    ![](./images/7.png)
+![](./images/7.png)
 
-    ![](./images/B16782_04_003.jpg)
+![](./images/B16782_04_003.jpg)
 
 
 4.  Click **Sheet 1** at the bottom of the screen to start a new
@@ -85,7 +85,7 @@ Start by opening the **Superstore.tflx** flow from the **Sample Files
     onto **Rows**:
 
     
-    ![](./images/B16782_04_004.jpg)
+![](./images/B16782_04_004.jpg)
 
 
 
@@ -98,7 +98,7 @@ Start by opening the **Superstore.tflx** flow from the **Sample Files
     all the data that was presented in this dialog:
 
     
-    ![](./images/B16782_04_005.jpg)
+![](./images/B16782_04_005.jpg)
 
 
 6.  In the **View Data** dialog, select the **Full
@@ -165,7 +165,7 @@ Start by opening the **Superstore.tflx** flow from the **Sample Files 4.2** fold
     Aggregate step to your flow:
 
     
-    ![](./images/B16782_04_007.jpg)
+![](./images/B16782_04_007.jpg)
 
 
 
@@ -176,11 +176,11 @@ Start by opening the **Superstore.tflx** flow from the **Sample Files 4.2** fold
     we instantly see the aggregated value of 29 million:
 
     
-    ![](./images/B16782_04_008.jpg)
+![](./images/B16782_04_008.jpg)
 
 
 
-    By default, aggregating a numeric value will
+By default, aggregating a numeric value will
     be done by **summarizing** its value across all rows. However, you
     can select from a range of basic mathematic functions, as well as
     several statistical functions, to use for aggregation. To do so,
@@ -188,7 +188,7 @@ Start by opening the **Superstore.tflx** flow from the **Sample Files 4.2** fold
     Fields** section, and select the desired function:
 
     
-    ![](./images/B16782_04_009.jpg)
+![](./images/B16782_04_009.jpg)
 
 
 
@@ -273,7 +273,7 @@ then follow these steps:
     flow:
 
     
-    ![](./images/B16782_04_011.jpg)
+![](./images/B16782_04_011.jpg)
 
 
 
@@ -287,16 +287,16 @@ then follow these steps:
     Field** section, select **Fixed LOD**:
 
     
-    ![](./images/B16782_04_012.jpg)
+![](./images/B16782_04_012.jpg)
 
 
 
-    This step will cause an immediate
+This step will cause an immediate
     error in your flow. That\'s expected, as we
     need to take another step to configure the LOD calculation:
 
     
-    ![](./images/B16782_04_013.jpg)
+![](./images/B16782_04_013.jpg)
 
 
 3.  Now that we\'re presented with the **Fixed LOD** dialog, we need to
@@ -308,7 +308,7 @@ then follow these steps:
     click **Done**:
 
     
-    ![](./images/B16782_04_014.jpg)
+![](./images/B16782_04_014.jpg)
 
 
 
@@ -405,7 +405,7 @@ steps:
     value. Then, right-click and select **Group Values**:
 
     
-    ![](./images/B16782_04_018.jpg)
+![](./images/B16782_04_018.jpg)
 
 
 
@@ -418,7 +418,7 @@ steps:
     paperclip) and select **Edit Group Members**:
 
     
-    ![](./images/B16782_04_019.jpg)
+![](./images/B16782_04_019.jpg)
 
 
 
@@ -434,7 +434,7 @@ steps:
     **Pronunciation**:
 
     
-    ![](./images/B16782_04_020.jpg)
+![](./images/B16782_04_020.jpg)
 
 
 
