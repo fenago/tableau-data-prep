@@ -632,12 +632,12 @@ When selecting **Automatic Split**, Tableau
     result. If Tableau is unable to determine the delimiter, **Automatic
     Split** will display the **Custom Split** dialog instead.
 
-    The result of the action we just took can be seen in the **Changes**
+The result of the action we just took can be seen in the **Changes**
     pane, where we can see that two new calculated fields have been
     created. We can also see two new fields in the profile pane:
     **Cashier -- Split 1** and **Cashier -- Split 2**.
 
-    Note that the splitting of a field does not amend or remove the
+Note that the splitting of a field does not amend or remove the
     original field. In this instance, we still have the original
     **Cashier** field present in our data:
 

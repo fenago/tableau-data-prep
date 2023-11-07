@@ -513,7 +513,7 @@ analysis in Tableau Desktop:
 
 **Note:** You can drag the fields in Columns/Rows section as shown in the screenshot.
 
-    And with this, we\'ve found the
+And with this, we\'ve found the
     answer to our question. **Office Supplies** is the
     product category for which consumers most often leverage same-day
     shipping.
