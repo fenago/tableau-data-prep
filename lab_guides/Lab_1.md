@@ -77,16 +77,12 @@ Open Tableau Prep:
     home screen. From here, you can take a number of actions, which
     we\'ll cover briefly:
 
-    
     ![](./images/B16782_01_002.jpg)
-
-
 
     In Tableau Prep, a **flow** is what we call a
     data pipeline. If you\'ve used other software in the past, you may
     have referred to a pipeline as an **Extract,
-    Transform, and Load** (**ETL**) process, **workflow**, or **data
-    pipeline**. 
+    Transform, and Load** (**ETL**) process, **workflow**, or **data pipeline**. 
 
     It\'s easy to start a new flow, simply by creating a data
     connection. To get started, click the blue **Connect to Data**
@@ -96,18 +92,13 @@ Open Tableau Prep:
     ![](./images/B16782_01_003.jpg)
 
 
-
-    From here, select your connection type, and
-    that will complete the creation of a new flow:
+From here, select your connection type, and that will complete the creation of a new flow:
 
     
-    ![](./images/B16782_01_004.jpg)
+![](./images/B16782_01_004.jpg)
 
 
-
-    In *Lab 2*,
-    *Extract and Load Processes*, we\'ll cover the configuration of
-    various data connections in detail.
+In *Lab 2*, *Extract and Load Processes*, we\'ll cover the configuration of various data connections in detail.
 
 2.  At the bottom of the home page, you\'ll notice two example flows
     provided by Tableau:
@@ -116,13 +107,12 @@ Open Tableau Prep:
     ![](./images/B16782_01_005.jpg)
 
 
-
-    Both these flows use the sample **Superstore**
+Both these flows use the sample **Superstore**
     and **WorldIndicators** data that is delivered with the Tableau
     Desktop application as well, so you may be familiar with this data
     already.
 
-    These example flows can be opened with one click and run locally.
+These example flows can be opened with one click and run locally.
     They\'re excellent for testing out quick actions and exercises learned
     in this course, without the need for you to create a new flow from
     scratch. Personally, I\'ve become so accustomed to this, I typically
@@ -137,13 +127,12 @@ Open Tableau Prep:
     ![](./images/B16782_01_006.jpg)
 
 
-    The **Discover** pane has two sections that are always visible, **Training** and **Resources**.
+The **Discover** pane has two sections that are always visible, **Training** and **Resources**.
 
 4.  There are two ways to open flows. Firstly, you can use the **Open a
     Flow** button at the top of the home screen.
 
-    The second, one-click approach is to select a flow from the **Recent
-    Flows** section. This section will automatically update based on
+    The second, one-click approach is to select a flow from the **Recent Flows** section. This section will automatically update based on
     your activity, with the latest flow accessed
     being the first one listed:
 
@@ -215,9 +204,7 @@ Open Tableau Prep:
     output to be generated only. This could significantly improve the
     flow runtime, a great benefit during
     development and testing:
-
-![](./images/B16782_01_014.jpg)
-
+    ![](./images/B16782_01_014.jpg)
 
 
 
@@ -304,11 +291,11 @@ this question without the need for additional reporting tools:
     **Consumer**. From the context menu, select **Keep Only**:
 
     
-    ![Figure 1.17 -- Selecting the All orders step will bring up the bottom pane ](./images/B16782_01_017.jpg)
+    ![](./images/B16782_01_017.jpg)
 
 
 
-    Tableau Prep will instantly
+Tableau Prep will instantly
     apply the filter and show you the data preview
     excluding any segments that are not **Consumer**.
 
@@ -324,7 +311,6 @@ this question without the need for additional reporting tools:
 
     
     ![](./images/B16782_01_018.jpg)
-
 
 
 6.  Now, we can clearly see the top category
@@ -432,9 +418,7 @@ Desktop:
     rather than all outputs
     in the flow:
 
-    
     ![](./images/B16782_01_023.jpg)
-
 
 
 4.  Finally, open the CSV file in the tool of your choice for further
@@ -443,7 +427,7 @@ Desktop:
     and run the output again to
     update the saved CSV file:
 
-![](./images/B16782_01_024.jpg)
+    ![](./images/B16782_01_024.jpg)
 
 
 
@@ -465,13 +449,6 @@ not locked into any particular ecosystem.
 Using Tableau Prep to run distinct outputs separately is a great feature
 for ad hoc analysis, as you do not need to refresh your entire output
 every time.
-
-
-
-
-
-
-
 
 
 
@@ -513,7 +490,6 @@ analysis in Tableau Desktop:
     ![](./images/B16782_01_025.jpg)
 
 
-
 2.  **Note:** It might take couple of minutes and Tableau
     Desktop will start automatically and open a
     new workbook connected to the data from the step we selected in the
@@ -521,8 +497,7 @@ analysis in Tableau Desktop:
     
     ![](./images/B16782_01_026.jpg)
 
-3.  From here, you can
-    perform the typical analysis you\'d perform in
+3.  From here, you can perform the typical analysis you\'d perform in
     Tableau Desktop. Add a **Segment** filter for **Consumer**, a
     **Ship Mode** filter for **Same Day**.
 
@@ -542,7 +517,6 @@ analysis in Tableau Desktop:
     answer to our question. **Office Supplies** is the
     product category for which consumers most often leverage same-day
     shipping.
-
 
 
 ## How it works...

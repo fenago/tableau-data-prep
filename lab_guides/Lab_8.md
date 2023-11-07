@@ -534,8 +534,6 @@ Tableau Prep instance and connect to the **csat_data.csv** file from the
     ![](./images/B16782_09_022.jpg)
 
 
-    for the score field
-
 3.  Let\'s now get the average score by adding an
     **Aggregate** step. In the step configuration, drag and drop the
     **score** field to the **Aggregated Fields** section, and click
